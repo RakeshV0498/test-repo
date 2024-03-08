@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DataFlix: Your Ultimate Movie Database Destination!</title>
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" />
+    <link rel="preconnect" href="http://www.omdbapi.com/" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <a href="#" class="home-link">
+        <img class="home-icon" src="img/home logo.png" alt="movie camera" />
+      </a>
+      <p class="app-name">DataFlix</p>
+    </nav>
+    <main class="main-app">
+      <article class="input-form">
+        <form class="form-container">
+          <input
+            type="text"
+            class="input-movie"
+            required
+            placeholder="Enter movie,tv show name"
+          />
+          <div class="btn-container">
+            <button class="btn btn-search" type="submit">Search</button>
+            <button class="btn btn-reset" type="reset">Reset</button>
+          </div>
+        </form>
+      </article>
+      <article class="movie-container"></article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
